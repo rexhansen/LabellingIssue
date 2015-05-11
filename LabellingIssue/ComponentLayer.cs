@@ -24,10 +24,10 @@ namespace LabellingIssue
                     IsWordWrapEnabled = false,
                     LabelPlacement = LabelPlacement.LineAboveAlong,
                     LabelPosition = LabelPosition.FixedPositionWithOverlaps,
-                    LabelPriority = LabelPriority.Automatic,
+                    LabelPriority = LabelPriority.Highest,
                     DuplicateLabels = DuplicateLabels.PreserveDuplicates,
                     TextExpression = "[LENGTH]",
-                    MinScale = 500d,
+                    MinScale = 0d,
                     Symbol = new TextSymbol
                     {
                         Color = Colors.DarkRed,
